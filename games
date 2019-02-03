@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DylzzTech.com | Games</title>
+    <meta name="msvalidate.01" content="4CFEF51CA214CF6BA7E51432D9BEC661" />
+    <meta name="google-site-verification" content="RA1NkJV82ICo4o6bJACzutzb1g7h8FAbJNcyto7QlRQ" />
+    <link rel="stylesheet" href="style.css">
+    <favicon
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      *{
+      font-family: 'Ubuntu', sans-serif;
+      margin:0;
+      padding:0;
+    }
+      
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+  footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 65%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+</style>
+  </head>
+  <body>
+  <center>
+   <nav style="width:65%;min-width:410px;">
+     <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="https://www.dylzztech.com/portfolio.html">Portfolio</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <li><a class="active" href="https://www.dylzztech.com/games.html">Games</a></li>
+     </ul>
+   </nav>
