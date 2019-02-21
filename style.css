@@ -15,3 +15,8 @@ display:inline-block;
 li a {
     color:white;
 }
+
+li a: hover{
+    background-color:white;
+    color:purple;
+}
