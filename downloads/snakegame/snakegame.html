@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      *{
+        padding:0;
+        margin:0;
+      }
+      nav{
+        background-color:gray;
+        color:white;
+        padding:2px;
+      }
+
+      ul li{
+        text-decoration:none;
+        display:inline-block;
+        padding:5px;
+      }
+
+      li a{
+        text-decoration:none;
+        color:white;
+        padding:5px;
+      }
+
+      li a:hover{
+        text-decoration:none;
+        color:gray;
+        background-color:white;
+        padding:5px;
+      }
+
+      .button {
+    display: inline-block;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding:5px;
+
+
+
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: -28px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  div {
+	width: 500px;
+	height: 340px;
+	background-color: white;
+  color:black;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+  border: solid black 2px;
+  text-align:center;
+	margin: auto;
+}
+    </style>
+    <meta charset="utf-8">
+    <title>DylzzPlays</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Request assistance...</a></li>
+        <li style="float:right;"><A href="https://drive.google.com/uc?authuser=0&id=1aaFnvsEbKdXMJb7gJ_qHcc9U08vNGGrC&export=download"<button class="button" style="vertical-align:middle"><span>Download</span></button></a></li>
+      </ul>
+    </nav>
+    <div>
+      <h3>You are currently viewing: Snake Game by DylzzPlays</h3>
+      <p>Click the red "Download" button in the top-right of  the page to begin your download.</p>
+      <p><img src="https://i.imgur.com/RCbkCut.jpg" width="70%;"></p>
+    </div>
+  </body>
+</html>
