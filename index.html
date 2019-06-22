@@ -1,22 +1,51 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
+<title>DylzzTech | Home</title>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
 <style>
-body {margin:0;}
+* {
+margin:0px;
+padding:0px;
+font-family: 'Ubuntu', sans-serif;
+}
+#body {
+width: 100%;
+height: 100%;
+}
+
+body {
+background-color:#F8F8FF;
+}
+
+p {
+background-image: linear-gradient(to bottom right, green, blue, red);
+text-align:center;
+color:white;
+}
+
+h1 {
+text-align:center;
+color:purple;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  background-image: linear-gradient(to bottom right, green, blue, red);
 }
 
 li {
   float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 li a {
@@ -32,18 +61,50 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  text-transform:uppercase;
+  color:white;
+}
+
+h4 {
+color:purple;
+text-align:center;
+margin:10px;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   
+    background-image: linear-gradient(to bottom right, green, blue, red);
+   color:white;
+   text-align:center;
 }
 </style>
 </head>
 <body>
-
+<header>
+<p>We are currently developing a new website to improve your time on our website. <button>Click to find out more</button>
+</header>
+<div style="width:100%; height:1px; background-color:white;"></div>
 <ul>
   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">page2</a></li>
-  <li><a href="#contact">page3</a></li>
-  <li><a href="#about">page4</a></li>
+  <li><a href="https://www.twitter.com/dylzztech/">Twitter</a></li>
+  <li><a href="https://www.youtube.com/channel/UCNiHkY_5V6N1a5uJtcYokOg/t">YouTube</a></li>
+  <li style="float:right"><a href="https://discord.gg/F5VnNg4">Join our community Discord Server!</a></li>
 </ul>
 
-<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
-  <iframe src="https://www.youtube.com/channel/UCNiHkY_5V6N1a5uJtcYokOg" width="100%" height="100%">
+
+<h1><u>Welcome to DylzzTech's Website</u></h1>
+<h4>Hey there, I'm Dylan and welcome to the DylzzTech website!
+ I am obsessed with anything tech related. If you want to improve 
+ your technology experience and become more knowledgeable in the
+ tech world, you've come to the right place! I'll be reviewing & 
+ unboxing various products on my 
+ <a href="https://www.youtube.com/channel/UCNiHkY_5V6N1a5uJtcYokOg/">
+ YouTube Channel</a>. As well as showing you 
+ the progression of my room/setup!</h4>
+ <center><u><h2 style="color:purple;">Latest from DylzzTech:</h2></u>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/YgOqMI2VgTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </center>
+<footer><h3>&copy DylzzTech 2019</h3></footer>
